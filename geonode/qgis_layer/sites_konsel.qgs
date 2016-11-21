@@ -1,0 +1,1084 @@
+<qgis projectname="" version="2.18.0">
+  <title />
+  <autotransaction active="0" />
+  <evaluateDefaultValues active="0" />
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties />
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="sites_konsel20161116092324633" name="sites_konsel">
+      <customproperties />
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations />
+  <projectlayers>
+    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" readOnly="0" scaleBasedLabelVisibilityFlag="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <id>sites_konsel20161116092324633</id>
+      <datasource>/var/www/geonode/geonode/qgis_layer/sites_konsel.shp</datasource>
+      <keywordList>
+        <value />
+      </keywordList>
+      <layername>sites_konsel</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression />
+      <vectorjoins />
+      <layerDependencies />
+      <expressionfields />
+      <defaults>
+        <default expression="" field="PROVNO" />
+        <default expression="" field="KABKOTNO" />
+        <default expression="" field="KECNO" />
+        <default expression="" field="DESANO" />
+        <default expression="" field="PROVINSI" />
+        <default expression="" field="KABKOT" />
+        <default expression="" field="KECAMATAN" />
+        <default expression="" field="DESA" />
+        <default expression="" field="ID2013" />
+        <default expression="" field="Test" />
+        <default expression="" field="ID2013_1" />
+        <default expression="" field="Test_1" />
+        <default expression="" field="KODEWIL" />
+        <default expression="" field="LEVEL_WILA" />
+        <default expression="" field="R101" />
+        <default expression="" field="R101N" />
+        <default expression="" field="R102" />
+        <default expression="" field="R102N" />
+        <default expression="" field="R103" />
+        <default expression="" field="R103N" />
+        <default expression="" field="R104" />
+        <default expression="" field="R104N" />
+        <default expression="" field="R301" />
+        <default expression="" field="R305B" />
+        <default expression="" field="R307A" />
+        <default expression="" field="_307AB" />
+        <default expression="" field="R307ABC" />
+        <default expression="" field="R401A" />
+        <default expression="" field="R401B" />
+        <default expression="" field="R401C" />
+        <default expression="" field="R401AB" />
+        <default expression="" field="R508A_K2" />
+        <default expression="" field="R509B" />
+        <default expression="" field="R509C1" />
+        <default expression="" field="R509C2" />
+        <default expression="" field="R509C3" />
+        <default expression="" field="R511A" />
+        <default expression="" field="R511B1" />
+        <default expression="" field="R511B2" />
+        <default expression="" field="R511B3" />
+        <default expression="" field="R601A_K2" />
+        <default expression="" field="R601A_K3" />
+        <default expression="" field="R601A_K4" />
+        <default expression="" field="R601A_K5" />
+        <default expression="" field="R601A_K6" />
+        <default expression="" field="R601A_K7" />
+        <default expression="" field="R601A_K8" />
+        <default expression="" field="R601A_K9" />
+        <default expression="" field="R601A_K10" />
+        <default expression="" field="R601B_K2" />
+        <default expression="" field="R601B_K3" />
+        <default expression="" field="R601B_K4" />
+        <default expression="" field="R601B_K5" />
+        <default expression="" field="R601B_K6" />
+        <default expression="" field="R601B_K7" />
+        <default expression="" field="R601B_K8" />
+        <default expression="" field="R601B_K9" />
+        <default expression="" field="R601B_K10" />
+        <default expression="" field="R601C_K2" />
+        <default expression="" field="R601C_K3" />
+        <default expression="" field="R601C_K4" />
+        <default expression="" field="R601C_K5" />
+        <default expression="" field="R601C_K6" />
+        <default expression="" field="R601C_K7" />
+        <default expression="" field="R601C_K8" />
+        <default expression="" field="R601C_K9" />
+        <default expression="" field="R601C_K10" />
+        <default expression="" field="R601F_K2" />
+        <default expression="" field="R601F_K3" />
+        <default expression="" field="R601F_K4" />
+        <default expression="" field="R601F_K5" />
+        <default expression="" field="R601F_K6" />
+        <default expression="" field="R601F_K7" />
+        <default expression="" field="R601F_K8" />
+        <default expression="" field="R601F_K9" />
+        <default expression="" field="R601F_K10" />
+        <default expression="" field="R601G_K2" />
+        <default expression="" field="R601G_K3" />
+        <default expression="" field="R601G_K4" />
+        <default expression="" field="R601G_K5" />
+        <default expression="" field="R601G_K6" />
+        <default expression="" field="R601G_K7" />
+        <default expression="" field="R601G_K8" />
+        <default expression="" field="R601G_K9" />
+        <default expression="" field="R601G_K10" />
+        <default expression="" field="R601I_K2" />
+        <default expression="" field="R601I_K3" />
+        <default expression="" field="R601I_K4" />
+        <default expression="" field="R601I_K5" />
+        <default expression="" field="R601I_K6" />
+        <default expression="" field="R601I_K7" />
+        <default expression="" field="R601I_K8" />
+        <default expression="" field="R601I_K9" />
+        <default expression="" field="R601I_K10" />
+        <default expression="" field="R601J_K2" />
+        <default expression="" field="R601J_K3" />
+        <default expression="" field="R601J_K4" />
+        <default expression="" field="R601J_K5" />
+        <default expression="" field="R601J_K6" />
+        <default expression="" field="R601J_K7" />
+        <default expression="" field="R601J_K8" />
+        <default expression="" field="R601J_K9" />
+        <default expression="" field="R601J_K10" />
+        <default expression="" field="R601_K2" />
+        <default expression="" field="R601_K3" />
+        <default expression="" field="R601_K4" />
+        <default expression="" field="R602A" />
+        <default expression="" field="R602C" />
+        <default expression="" field="R602D" />
+        <default expression="" field="R704A_K2" />
+        <default expression="" field="R704A_K3" />
+        <default expression="" field="R704B_K2" />
+        <default expression="" field="R704B_K3" />
+        <default expression="" field="R704C_K2" />
+        <default expression="" field="R704C_K3" />
+        <default expression="" field="R704D_K2" />
+        <default expression="" field="R704D_K3" />
+        <default expression="" field="R704E_K2" />
+        <default expression="" field="R704E_K3" />
+        <default expression="" field="R704F_K2" />
+        <default expression="" field="R704F_K3" />
+        <default expression="" field="R704I_K2" />
+        <default expression="" field="R704I_K3" />
+        <default expression="" field="R704J_K2" />
+        <default expression="" field="R704J_K3" />
+        <default expression="" field="R704_K3" />
+        <default expression="" field="R805A" />
+        <default expression="" field="R805B" />
+        <default expression="" field="R805C" />
+        <default expression="" field="R805D" />
+        <default expression="" field="R805E" />
+        <default expression="" field="R805F" />
+        <default expression="" field="R805G" />
+        <default expression="" field="R805H" />
+        <default expression="" field="R805I" />
+        <default expression="" field="R805" />
+        <default expression="" field="R806" />
+        <default expression="" field="IKA" />
+        <default expression="" field="IKS" />
+        <default expression="" field="Kerentanan" />
+        <default expression="" field="Dominan" />
+        <default expression="" field="R601_K3A" />
+        <default expression="" field="R601_K2A" />
+        <default expression="" field="RO6_K23" />
+        <default expression="" field="I_BNCN" />
+        <default expression="" field="I_RNTN" />
+        <default expression="" field="OVRLY" />
+        <default expression="" field="I_OVRLY" />
+        <default expression="" field="sitskpd" />
+        <default expression="" field="Label" />
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name="" />
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="PROVNO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KABKOTNO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KECNO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="DESANO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="PROVINSI" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KABKOT" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KECAMATAN" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="DESA" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="ID2013" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Test" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="ID2013_1" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Test_1" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KODEWIL" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="LEVEL_WILA" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R101" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R101N" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R102" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R102N" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R103" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R103N" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R104" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R104N" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R301" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R305B" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R307A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="_307AB" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R307ABC" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R401A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R401B" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R401C" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R401AB" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R508A_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R509B" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R509C1" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R509C2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R509C3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R511A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R511B1" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R511B2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R511B3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601A_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601B_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601C_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601F_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601G_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601I_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K5" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K6" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K7" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K8" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K9" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601J_K10" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601_K4" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R602A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R602C" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R602D" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704A_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704A_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704B_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704B_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704C_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704C_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704D_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704D_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704E_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704E_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704F_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704F_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704I_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704I_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704J_K2" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704J_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R704_K3" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805B" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805C" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805D" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805E" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805F" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805G" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805H" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805I" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R805" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R806" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="IKA" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="IKS" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Kerentanan" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Dominan" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601_K3A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="R601_K2A" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="RO6_K23" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="I_BNCN" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="I_RNTN" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="OVRLY" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="I_OVRLY" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="sitskpd" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Label" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="color" v="182,109,194,255" />
+              <prop k="joinstyle" v="bevel" />
+              <prop k="offset" v="0,0" />
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="offset_unit" v="MM" />
+              <prop k="outline_color" v="0,0,0,255" />
+              <prop k="outline_style" v="solid" />
+              <prop k="outline_width" v="0.26" />
+              <prop k="outline_width_unit" v="MM" />
+              <prop k="style" v="solid" />
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation />
+        <sizescale scalemethod="diameter" />
+      </renderer-v2>
+      <labeling type="simple" />
+      <customproperties>
+        <property key="labeling" value="pal" />
+        <property key="labeling/addDirectionSymbol" value="false" />
+        <property key="labeling/angleOffset" value="0" />
+        <property key="labeling/blendMode" value="0" />
+        <property key="labeling/bufferBlendMode" value="0" />
+        <property key="labeling/bufferColorA" value="255" />
+        <property key="labeling/bufferColorB" value="255" />
+        <property key="labeling/bufferColorG" value="255" />
+        <property key="labeling/bufferColorR" value="255" />
+        <property key="labeling/bufferDraw" value="true" />
+        <property key="labeling/bufferJoinStyle" value="64" />
+        <property key="labeling/bufferNoFill" value="false" />
+        <property key="labeling/bufferSize" value="1" />
+        <property key="labeling/bufferSizeInMapUnits" value="false" />
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0" />
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0" />
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/bufferTransp" value="0" />
+        <property key="labeling/centroidInside" value="false" />
+        <property key="labeling/centroidWhole" value="true" />
+        <property key="labeling/decimals" value="3" />
+        <property key="labeling/displayAll" value="false" />
+        <property key="labeling/dist" value="2" />
+        <property key="labeling/distInMapUnits" value="false" />
+        <property key="labeling/distMapUnitMaxScale" value="0" />
+        <property key="labeling/distMapUnitMinScale" value="0" />
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/drawLabels" value="true" />
+        <property key="labeling/enabled" value="true" />
+        <property key="labeling/fieldName" value="DESA" />
+        <property key="labeling/fitInPolygonOnly" value="false" />
+        <property key="labeling/fontCapitals" value="0" />
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2" />
+        <property key="labeling/fontItalic" value="false" />
+        <property key="labeling/fontLetterSpacing" value="0" />
+        <property key="labeling/fontLimitPixelSize" value="false" />
+        <property key="labeling/fontMaxPixelSize" value="10000" />
+        <property key="labeling/fontMinPixelSize" value="3" />
+        <property key="labeling/fontSize" value="8.25" />
+        <property key="labeling/fontSizeInMapUnits" value="false" />
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0" />
+        <property key="labeling/fontSizeMapUnitMinScale" value="0" />
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/fontStrikeout" value="false" />
+        <property key="labeling/fontUnderline" value="false" />
+        <property key="labeling/fontWeight" value="50" />
+        <property key="labeling/fontWordSpacing" value="0" />
+        <property key="labeling/formatNumbers" value="false" />
+        <property key="labeling/isExpression" value="false" />
+        <property key="labeling/labelOffsetInMapUnits" value="true" />
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0" />
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0" />
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/labelPerPart" value="false" />
+        <property key="labeling/leftDirectionSymbol" value="&lt;" />
+        <property key="labeling/limitNumLabels" value="false" />
+        <property key="labeling/maxCurvedCharAngleIn" value="20" />
+        <property key="labeling/maxCurvedCharAngleOut" value="-20" />
+        <property key="labeling/maxNumLabels" value="2000" />
+        <property key="labeling/mergeLines" value="false" />
+        <property key="labeling/minFeatureSize" value="0" />
+        <property key="labeling/multilineAlign" value="0" />
+        <property key="labeling/multilineHeight" value="1" />
+        <property key="labeling/namedStyle" value="Normal" />
+        <property key="labeling/obstacle" value="true" />
+        <property key="labeling/obstacleFactor" value="1" />
+        <property key="labeling/obstacleType" value="0" />
+        <property key="labeling/offsetType" value="0" />
+        <property key="labeling/placeDirectionSymbol" value="0" />
+        <property key="labeling/placement" value="0" />
+        <property key="labeling/placementFlags" value="10" />
+        <property key="labeling/plussign" value="false" />
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR" />
+        <property key="labeling/preserveRotation" value="true" />
+        <property key="labeling/previewBkgrdColor" value="#ffffff" />
+        <property key="labeling/priority" value="10" />
+        <property key="labeling/quadOffset" value="4" />
+        <property key="labeling/repeatDistance" value="0" />
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0" />
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0" />
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/repeatDistanceUnit" value="1" />
+        <property key="labeling/reverseDirectionSymbol" value="false" />
+        <property key="labeling/rightDirectionSymbol" value="&gt;" />
+        <property key="labeling/scaleMax" value="10000000" />
+        <property key="labeling/scaleMin" value="1" />
+        <property key="labeling/scaleVisibility" value="false" />
+        <property key="labeling/shadowBlendMode" value="6" />
+        <property key="labeling/shadowColorB" value="0" />
+        <property key="labeling/shadowColorG" value="0" />
+        <property key="labeling/shadowColorR" value="0" />
+        <property key="labeling/shadowDraw" value="false" />
+        <property key="labeling/shadowOffsetAngle" value="135" />
+        <property key="labeling/shadowOffsetDist" value="1" />
+        <property key="labeling/shadowOffsetGlobal" value="true" />
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0" />
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0" />
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shadowOffsetUnits" value="1" />
+        <property key="labeling/shadowRadius" value="1.5" />
+        <property key="labeling/shadowRadiusAlphaOnly" value="false" />
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0" />
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0" />
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shadowRadiusUnits" value="1" />
+        <property key="labeling/shadowScale" value="100" />
+        <property key="labeling/shadowTransparency" value="30" />
+        <property key="labeling/shadowUnder" value="0" />
+        <property key="labeling/shapeBlendMode" value="0" />
+        <property key="labeling/shapeBorderColorA" value="255" />
+        <property key="labeling/shapeBorderColorB" value="128" />
+        <property key="labeling/shapeBorderColorG" value="128" />
+        <property key="labeling/shapeBorderColorR" value="128" />
+        <property key="labeling/shapeBorderWidth" value="0" />
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0" />
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0" />
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shapeBorderWidthUnits" value="1" />
+        <property key="labeling/shapeDraw" value="false" />
+        <property key="labeling/shapeFillColorA" value="255" />
+        <property key="labeling/shapeFillColorB" value="255" />
+        <property key="labeling/shapeFillColorG" value="255" />
+        <property key="labeling/shapeFillColorR" value="255" />
+        <property key="labeling/shapeJoinStyle" value="64" />
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0" />
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0" />
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shapeOffsetUnits" value="1" />
+        <property key="labeling/shapeOffsetX" value="0" />
+        <property key="labeling/shapeOffsetY" value="0" />
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0" />
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0" />
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shapeRadiiUnits" value="1" />
+        <property key="labeling/shapeRadiiX" value="0" />
+        <property key="labeling/shapeRadiiY" value="0" />
+        <property key="labeling/shapeRotation" value="0" />
+        <property key="labeling/shapeRotationType" value="0" />
+        <property key="labeling/shapeSVGFile" value="" />
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0" />
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0" />
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0" />
+        <property key="labeling/shapeSizeType" value="0" />
+        <property key="labeling/shapeSizeUnits" value="1" />
+        <property key="labeling/shapeSizeX" value="0" />
+        <property key="labeling/shapeSizeY" value="0" />
+        <property key="labeling/shapeTransparency" value="0" />
+        <property key="labeling/shapeType" value="0" />
+        <property key="labeling/textColorA" value="255" />
+        <property key="labeling/textColorB" value="0" />
+        <property key="labeling/textColorG" value="0" />
+        <property key="labeling/textColorR" value="0" />
+        <property key="labeling/textTransp" value="0" />
+        <property key="labeling/upsidedownLabels" value="0" />
+        <property key="labeling/wrapChar" value="" />
+        <property key="labeling/xOffset" value="0" />
+        <property key="labeling/yOffset" value="0" />
+        <property key="labeling/zIndex" value="0" />
+        <property key="variableNames" value="_fields_" />
+        <property key="variableValues" value="" />
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID2013</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label" />
+        <family fieldname="" name="MS Shell Dlg 2" />
+        <size fieldname="" units="pt" value="12" />
+        <bold fieldname="" on="0" />
+        <italic fieldname="" on="0" />
+        <underline fieldname="" on="0" />
+        <strikeout fieldname="" on="0" />
+        <color blue="0" fieldname="" green="0" red="0" />
+        <x fieldname="" />
+        <y fieldname="" />
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname="" />
+        <angle auto="0" fieldname="" value="0" />
+        <alignment fieldname="" value="center" />
+        <buffercolor blue="255" fieldname="" green="255" red="255" />
+        <buffersize fieldname="" units="pt" value="1" />
+        <bufferenabled fieldname="" on="" />
+        <multilineenabled fieldname="" on="" />
+        <selectedonly on="" />
+      </labelattributes>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Pie" sizeLegend="0">
+        <DiagramCategory angleOffset="1440" backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" penAlpha="255" penColor="#000000" penWidth="0" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="0,0,0,0,0,0" sizeType="MM" transparency="0" width="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" />
+          <attribute color="#000000" field="" label="" />
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" name="sizeSymbol" type="marker">
+          <layer class="SimpleMarker" locked="0" pass="0">
+            <prop k="angle" v="0" />
+            <prop k="color" v="255,0,0,255" />
+            <prop k="horizontal_anchor_point" v="1" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="name" v="circle" />
+            <prop k="offset" v="0,0" />
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="outline_color" v="0,0,0,255" />
+            <prop k="outline_style" v="solid" />
+            <prop k="outline_width" v="0" />
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0" />
+            <prop k="outline_width_unit" v="MM" />
+            <prop k="scale_method" v="diameter" />
+            <prop k="size" v="2" />
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0" />
+            <prop k="size_unit" v="MM" />
+            <prop k="vertical_anchor_point" v="1" />
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="10" obstacle="0" placement="0" priority="0" showAll="1" showColumn="0" xPosColumn="-1" yPosColumn="-1" zIndex="0" />
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="PROVNO" index="0" name="" />
+        <alias field="KABKOTNO" index="1" name="" />
+        <alias field="KECNO" index="2" name="" />
+        <alias field="DESANO" index="3" name="" />
+        <alias field="PROVINSI" index="4" name="" />
+        <alias field="KABKOT" index="5" name="" />
+        <alias field="KECAMATAN" index="6" name="" />
+        <alias field="DESA" index="7" name="" />
+        <alias field="ID2013" index="8" name="" />
+        <alias field="Test" index="9" name="" />
+        <alias field="ID2013_1" index="10" name="" />
+        <alias field="Test_1" index="11" name="" />
+        <alias field="KODEWIL" index="12" name="" />
+        <alias field="LEVEL_WILA" index="13" name="" />
+        <alias field="R101" index="14" name="" />
+        <alias field="R101N" index="15" name="" />
+        <alias field="R102" index="16" name="" />
+        <alias field="R102N" index="17" name="" />
+        <alias field="R103" index="18" name="" />
+        <alias field="R103N" index="19" name="" />
+        <alias field="R104" index="20" name="" />
+        <alias field="R104N" index="21" name="" />
+        <alias field="R301" index="22" name="" />
+        <alias field="R305B" index="23" name="" />
+        <alias field="R307A" index="24" name="" />
+        <alias field="_307AB" index="25" name="" />
+        <alias field="R307ABC" index="26" name="" />
+        <alias field="R401A" index="27" name="" />
+        <alias field="R401B" index="28" name="" />
+        <alias field="R401C" index="29" name="" />
+        <alias field="R401AB" index="30" name="" />
+        <alias field="R508A_K2" index="31" name="" />
+        <alias field="R509B" index="32" name="" />
+        <alias field="R509C1" index="33" name="" />
+        <alias field="R509C2" index="34" name="" />
+        <alias field="R509C3" index="35" name="" />
+        <alias field="R511A" index="36" name="" />
+        <alias field="R511B1" index="37" name="" />
+        <alias field="R511B2" index="38" name="" />
+        <alias field="R511B3" index="39" name="" />
+        <alias field="R601A_K2" index="40" name="" />
+        <alias field="R601A_K3" index="41" name="" />
+        <alias field="R601A_K4" index="42" name="" />
+        <alias field="R601A_K5" index="43" name="" />
+        <alias field="R601A_K6" index="44" name="" />
+        <alias field="R601A_K7" index="45" name="" />
+        <alias field="R601A_K8" index="46" name="" />
+        <alias field="R601A_K9" index="47" name="" />
+        <alias field="R601A_K10" index="48" name="" />
+        <alias field="R601B_K2" index="49" name="" />
+        <alias field="R601B_K3" index="50" name="" />
+        <alias field="R601B_K4" index="51" name="" />
+        <alias field="R601B_K5" index="52" name="" />
+        <alias field="R601B_K6" index="53" name="" />
+        <alias field="R601B_K7" index="54" name="" />
+        <alias field="R601B_K8" index="55" name="" />
+        <alias field="R601B_K9" index="56" name="" />
+        <alias field="R601B_K10" index="57" name="" />
+        <alias field="R601C_K2" index="58" name="" />
+        <alias field="R601C_K3" index="59" name="" />
+        <alias field="R601C_K4" index="60" name="" />
+        <alias field="R601C_K5" index="61" name="" />
+        <alias field="R601C_K6" index="62" name="" />
+        <alias field="R601C_K7" index="63" name="" />
+        <alias field="R601C_K8" index="64" name="" />
+        <alias field="R601C_K9" index="65" name="" />
+        <alias field="R601C_K10" index="66" name="" />
+        <alias field="R601F_K2" index="67" name="" />
+        <alias field="R601F_K3" index="68" name="" />
+        <alias field="R601F_K4" index="69" name="" />
+        <alias field="R601F_K5" index="70" name="" />
+        <alias field="R601F_K6" index="71" name="" />
+        <alias field="R601F_K7" index="72" name="" />
+        <alias field="R601F_K8" index="73" name="" />
+        <alias field="R601F_K9" index="74" name="" />
+        <alias field="R601F_K10" index="75" name="" />
+        <alias field="R601G_K2" index="76" name="" />
+        <alias field="R601G_K3" index="77" name="" />
+        <alias field="R601G_K4" index="78" name="" />
+        <alias field="R601G_K5" index="79" name="" />
+        <alias field="R601G_K6" index="80" name="" />
+        <alias field="R601G_K7" index="81" name="" />
+        <alias field="R601G_K8" index="82" name="" />
+        <alias field="R601G_K9" index="83" name="" />
+        <alias field="R601G_K10" index="84" name="" />
+        <alias field="R601I_K2" index="85" name="" />
+        <alias field="R601I_K3" index="86" name="" />
+        <alias field="R601I_K4" index="87" name="" />
+        <alias field="R601I_K5" index="88" name="" />
+        <alias field="R601I_K6" index="89" name="" />
+        <alias field="R601I_K7" index="90" name="" />
+        <alias field="R601I_K8" index="91" name="" />
+        <alias field="R601I_K9" index="92" name="" />
+        <alias field="R601I_K10" index="93" name="" />
+        <alias field="R601J_K2" index="94" name="" />
+        <alias field="R601J_K3" index="95" name="" />
+        <alias field="R601J_K4" index="96" name="" />
+        <alias field="R601J_K5" index="97" name="" />
+        <alias field="R601J_K6" index="98" name="" />
+        <alias field="R601J_K7" index="99" name="" />
+        <alias field="R601J_K8" index="100" name="" />
+        <alias field="R601J_K9" index="101" name="" />
+        <alias field="R601J_K10" index="102" name="" />
+        <alias field="R601_K2" index="103" name="" />
+        <alias field="R601_K3" index="104" name="" />
+        <alias field="R601_K4" index="105" name="" />
+        <alias field="R602A" index="106" name="" />
+        <alias field="R602C" index="107" name="" />
+        <alias field="R602D" index="108" name="" />
+        <alias field="R704A_K2" index="109" name="" />
+        <alias field="R704A_K3" index="110" name="" />
+        <alias field="R704B_K2" index="111" name="" />
+        <alias field="R704B_K3" index="112" name="" />
+        <alias field="R704C_K2" index="113" name="" />
+        <alias field="R704C_K3" index="114" name="" />
+        <alias field="R704D_K2" index="115" name="" />
+        <alias field="R704D_K3" index="116" name="" />
+        <alias field="R704E_K2" index="117" name="" />
+        <alias field="R704E_K3" index="118" name="" />
+        <alias field="R704F_K2" index="119" name="" />
+        <alias field="R704F_K3" index="120" name="" />
+        <alias field="R704I_K2" index="121" name="" />
+        <alias field="R704I_K3" index="122" name="" />
+        <alias field="R704J_K2" index="123" name="" />
+        <alias field="R704J_K3" index="124" name="" />
+        <alias field="R704_K3" index="125" name="" />
+        <alias field="R805A" index="126" name="" />
+        <alias field="R805B" index="127" name="" />
+        <alias field="R805C" index="128" name="" />
+        <alias field="R805D" index="129" name="" />
+        <alias field="R805E" index="130" name="" />
+        <alias field="R805F" index="131" name="" />
+        <alias field="R805G" index="132" name="" />
+        <alias field="R805H" index="133" name="" />
+        <alias field="R805I" index="134" name="" />
+        <alias field="R805" index="135" name="" />
+        <alias field="R806" index="136" name="" />
+        <alias field="IKA" index="137" name="" />
+        <alias field="IKS" index="138" name="" />
+        <alias field="Kerentanan" index="139" name="" />
+        <alias field="Dominan" index="140" name="" />
+        <alias field="R601_K3A" index="141" name="" />
+        <alias field="R601_K2A" index="142" name="" />
+        <alias field="RO6_K23" index="143" name="" />
+        <alias field="I_BNCN" index="144" name="" />
+        <alias field="I_RNTN" index="145" name="" />
+        <alias field="OVRLY" index="146" name="" />
+        <alias field="I_OVRLY" index="147" name="" />
+        <alias field="sitskpd" index="148" name="" />
+        <alias field="Label" index="149" name="" />
+      </aliases>
+      <excludeAttributesWMS />
+      <excludeAttributesWFS />
+      <attributeactions default="0" />
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns />
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit />
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath />
+      <editforminitcode />
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets />
+      <conditionalstyles>
+        <rowstyles />
+        <fieldstyles />
+      </conditionalstyles>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString" />
+      <AreaUnits type="QString" />
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WFSLayers type="QStringList">
+      <value>sites_konsel20161116092324633</value>
+    </WFSLayers>
+    <WFSLayersPrecision>
+      <sites_konsel20161116092324633 type="int">8</sites_konsel20161116092324633>
+    </WFSLayersPrecision>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets />
+<legend updateDrawingOrder="true"> 
+<legendlayer checked="Qt::Checked" drawingOrder="-1" name="sites_konsel" open="true" showFeatureCount="0"> 
+<filegroup hidden="false" open="true"> 
+<legendlayerfile isInOverview="0" layerid="sites_konsel20161116092324633" visible="1" /> 
+</filegroup>
+</legendlayer>
+</legend></qgis>

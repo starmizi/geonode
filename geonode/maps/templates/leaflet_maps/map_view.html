@@ -155,24 +155,24 @@
                     'name': 'OpenMapSurfer_Roads',
                     'url': OpenMapSurfer_Roads._url,
                     'layer': OpenMapSurfer_Roads,
-                    'visibility': true,
+                    'visibility': false,
                     'group': 'background',
-                    'zIndex': 0
+                    'zIndex': 1
                 },
                 'osm': {
                     'title': 'OpenStreetMap',
                     'name': 'osm',
                     'url': osm._url,
                     'layer': osm,
-                    'visibility': false,
+                    'visibility': true,
                     'group': 'background',
-                    'zIndex': 1
+                    'zIndex': 0
                 }
             };
             all_layers_list.push('OpenMapSurfer_Roads');
             all_layers_list.push('osm');
 
-            active_background_layer = OpenMapSurfer_Roads;
+            active_background_layer = osm;
         {% else %}
             all_layers = {};
             all_layers_list = [];

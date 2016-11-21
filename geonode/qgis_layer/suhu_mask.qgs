@@ -1,0 +1,95 @@
+<qgis projectname="" version="2.18.0">
+  <title />
+  <autotransaction active="0" />
+  <evaluateDefaultValues active="0" />
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties />
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="suhu_mask20161115124628038" name="suhu_mask">
+      <customproperties />
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations />
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" maximumScale="1e+08" minimumScale="0" type="raster">
+      <extent>
+        <xmin>117.6551132279891192</xmin>
+        <ymin>-7.50639867864299948</ymin>
+        <xmax>127.16511322798912431</xmax>
+        <ymax>5.59360132135700017</ymax>
+      </extent>
+      <id>suhu_mask20161115124628038</id>
+      <datasource>/var/www/geonode/geonode/qgis_layer/suhu_mask.tif</datasource>
+      <keywordList>
+        <value />
+      </keywordList>
+      <layername>suhu_mask</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value" />
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1" />
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name="" />
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer alphaBand="-1" band="1" classificationMax="0.998103" classificationMin="0.669027" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" opacity="1" type="singlebandpseudocolor">
+          <rasterTransparency />
+          <rastershader>
+            <colorrampshader clip="0" colorRampType="INTERPOLATED">
+              <item alpha="255" color="#fff5eb" label="0.669027" value="0.669027" />
+              <item alpha="255" color="#fee6cf" label="0.711807" value="0.711807" />
+              <item alpha="255" color="#fdd1a5" label="0.754587" value="0.754587" />
+              <item alpha="255" color="#fdb171" label="0.797367" value="0.797367" />
+              <item alpha="255" color="#fd9243" label="0.840147" value="0.840147" />
+              <item alpha="255" color="#f36f1a" label="0.882926" value="0.882926" />
+              <item alpha="255" color="#de4f05" label="0.925706" value="0.925706" />
+              <item alpha="255" color="#b03902" label="0.965195" value="0.965195" />
+              <item alpha="255" color="#7f2704" label="0.998103" value="0.998103" />
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0" />
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0" />
+        <rasterresampler maxOversampling="2" />
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString" />
+      <AreaUnits type="QString" />
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets />
+<legend updateDrawingOrder="true"> 
+<legendlayer checked="Qt::Checked" drawingOrder="-1" name="suhu_mask" open="true" showFeatureCount="0"> 
+<filegroup hidden="false" open="true"> 
+<legendlayerfile isInOverview="0" layerid="suhu_mask20161115124628038" visible="1" /> 
+</filegroup>
+</legendlayer>
+</legend></qgis>

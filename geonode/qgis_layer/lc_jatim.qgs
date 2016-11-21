@@ -1,0 +1,189 @@
+<qgis projectname="" version="2.18.0">
+  <title />
+  <autotransaction active="0" />
+  <evaluateDefaultValues active="0" />
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties />
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="lc_jatim20161116085650855" name="lc_jatim">
+      <customproperties />
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations />
+  <projectlayers>
+    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" readOnly="0" scaleBasedLabelVisibilityFlag="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <id>lc_jatim20161116085650855</id>
+      <datasource>/var/www/geonode/geonode/qgis_layer/lc_jatim.shp</datasource>
+      <keywordList>
+        <value />
+      </keywordList>
+      <layername>lc_jatim</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression />
+      <vectorjoins />
+      <layerDependencies />
+      <expressionfields />
+      <defaults>
+        <default expression="" field="NAMOBJ" />
+        <default expression="" field="FCODE" />
+        <default expression="" field="REMARK" />
+        <default expression="" field="AQDATE" />
+        <default expression="" field="PUDATE" />
+        <default expression="" field="KODLCO" />
+        <default expression="" field="SRS_ID" />
+        <default expression="" field="SHAPE_AREA" />
+        <default expression="" field="SHAPE_LEN" />
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name="" />
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="NAMOBJ" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="FCODE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="REMARK" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="AQDATE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="PUDATE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KODLCO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="SRS_ID" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="SHAPE_AREA" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="SHAPE_LEN" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="color" v="78,137,71,255" />
+              <prop k="joinstyle" v="bevel" />
+              <prop k="offset" v="0,0" />
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="offset_unit" v="MM" />
+              <prop k="outline_color" v="0,0,0,255" />
+              <prop k="outline_style" v="solid" />
+              <prop k="outline_width" v="0.26" />
+              <prop k="outline_width_unit" v="MM" />
+              <prop k="style" v="solid" />
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation />
+        <sizescale scalemethod="diameter" />
+      </renderer-v2>
+      <labeling type="simple" />
+      <customproperties />
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>SRS_ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label" />
+        <family fieldname="" name="Helvetica" />
+        <size fieldname="" units="pt" value="12" />
+        <bold fieldname="" on="0" />
+        <italic fieldname="" on="0" />
+        <underline fieldname="" on="0" />
+        <strikeout fieldname="" on="0" />
+        <color blue="0" fieldname="" green="0" red="0" />
+        <x fieldname="" />
+        <y fieldname="" />
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname="" />
+        <angle auto="0" fieldname="" value="0" />
+        <alignment fieldname="" value="center" />
+        <buffercolor blue="255" fieldname="" green="255" red="255" />
+        <buffersize fieldname="" units="pt" value="1" />
+        <bufferenabled fieldname="" on="" />
+        <multilineenabled fieldname="" on="" />
+        <selectedonly on="" />
+      </labelattributes>
+      <annotationform />
+      <aliases>
+        <alias field="NAMOBJ" index="0" name="" />
+        <alias field="FCODE" index="1" name="" />
+        <alias field="REMARK" index="2" name="" />
+        <alias field="AQDATE" index="3" name="" />
+        <alias field="PUDATE" index="4" name="" />
+        <alias field="KODLCO" index="5" name="" />
+        <alias field="SRS_ID" index="6" name="" />
+        <alias field="SHAPE_AREA" index="7" name="" />
+        <alias field="SHAPE_LEN" index="8" name="" />
+      </aliases>
+      <excludeAttributesWMS />
+      <excludeAttributesWFS />
+      <attributeactions default="-1" />
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1564275571">
+        <columns />
+      </attributetableconfig>
+      <editform />
+      <editforminit />
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath />
+      <editforminitcode />
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets />
+      <conditionalstyles>
+        <rowstyles />
+        <fieldstyles />
+      </conditionalstyles>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString" />
+      <AreaUnits type="QString" />
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WFSLayers type="QStringList">
+      <value>lc_jatim20161116085650855</value>
+    </WFSLayers>
+    <WFSLayersPrecision>
+      <lc_jatim20161116085650855 type="int">8</lc_jatim20161116085650855>
+    </WFSLayersPrecision>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets />
+<legend updateDrawingOrder="true"> 
+<legendlayer checked="Qt::Checked" drawingOrder="-1" name="lc_jatim" open="true" showFeatureCount="0"> 
+<filegroup hidden="false" open="true"> 
+<legendlayerfile isInOverview="0" layerid="lc_jatim20161116085650855" visible="1" /> 
+</filegroup>
+</legendlayer>
+</legend></qgis>
