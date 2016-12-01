@@ -1,0 +1,218 @@
+<qgis projectname="" version="2.18.0">
+  <title />
+  <autotransaction active="0" />
+  <evaluateDefaultValues active="0" />
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties />
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="ej_village_centroid20161129131322941" name="ej_village_centroid">
+      <customproperties />
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations />
+  <projectlayers>
+    <maplayer geometry="Point" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" readOnly="0" scaleBasedLabelVisibilityFlag="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <id>ej_village_centroid20161129131322941</id>
+      <datasource>/var/www/geonode/geonode/qgis_layer/ej_village_centroid_YZ1R9Ev.shp</datasource>
+      <keywordList>
+        <value />
+      </keywordList>
+      <layername>ej_village_centroid</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression />
+      <vectorjoins />
+      <layerDependencies />
+      <expressionfields />
+      <defaults>
+        <default expression="" field="PROVINSI" />
+        <default expression="" field="KECAMATAN" />
+        <default expression="" field="DESA" />
+        <default expression="" field="KODE2010" />
+        <default expression="" field="KABKOT" />
+        <default expression="" field="id_village" />
+        <default expression="" field="id_distric" />
+        <default expression="" field="id_cityreg" />
+        <default expression="" field="id_provinc" />
+        <default expression="" field="Shape_Leng" />
+        <default expression="" field="Shape_Area" />
+        <default expression="" field="ORIG_FID" />
+        <default expression="" field="lat" />
+        <default expression="" field="lon" />
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name="" />
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="PROVINSI" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KECAMATAN" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="DESA" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KODE2010" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="KABKOT" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="id_village" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="id_distric" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="id_cityreg" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="id_provinc" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Shape_Leng" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="Shape_Area" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="ORIG_FID" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="lat" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+        <edittype name="lon" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" constraint="" constraintDescription="" fieldEditable="1" labelOnTop="0" notNull="0" />
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="marker">
+            <layer class="SimpleMarker" locked="0" pass="0">
+              <prop k="angle" v="0" />
+              <prop k="color" v="44,152,102,255" />
+              <prop k="horizontal_anchor_point" v="1" />
+              <prop k="joinstyle" v="bevel" />
+              <prop k="name" v="circle" />
+              <prop k="offset" v="0,0" />
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="offset_unit" v="MM" />
+              <prop k="outline_color" v="0,0,0,255" />
+              <prop k="outline_style" v="solid" />
+              <prop k="outline_width" v="0" />
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="outline_width_unit" v="MM" />
+              <prop k="scale_method" v="diameter" />
+              <prop k="size" v="2" />
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0" />
+              <prop k="size_unit" v="MM" />
+              <prop k="vertical_anchor_point" v="1" />
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation />
+        <sizescale scalemethod="diameter" />
+      </renderer-v2>
+      <labeling type="simple" />
+      <customproperties />
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id_village</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label" />
+        <family fieldname="" name="Helvetica" />
+        <size fieldname="" units="pt" value="12" />
+        <bold fieldname="" on="0" />
+        <italic fieldname="" on="0" />
+        <underline fieldname="" on="0" />
+        <strikeout fieldname="" on="0" />
+        <color blue="0" fieldname="" green="0" red="0" />
+        <x fieldname="" />
+        <y fieldname="" />
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname="" />
+        <angle auto="0" fieldname="" value="0" />
+        <alignment fieldname="" value="center" />
+        <buffercolor blue="255" fieldname="" green="255" red="255" />
+        <buffersize fieldname="" units="pt" value="1" />
+        <bufferenabled fieldname="" on="" />
+        <multilineenabled fieldname="" on="" />
+        <selectedonly on="" />
+      </labelattributes>
+      <annotationform />
+      <aliases>
+        <alias field="PROVINSI" index="0" name="" />
+        <alias field="KECAMATAN" index="1" name="" />
+        <alias field="DESA" index="2" name="" />
+        <alias field="KODE2010" index="3" name="" />
+        <alias field="KABKOT" index="4" name="" />
+        <alias field="id_village" index="5" name="" />
+        <alias field="id_distric" index="6" name="" />
+        <alias field="id_cityreg" index="7" name="" />
+        <alias field="id_provinc" index="8" name="" />
+        <alias field="Shape_Leng" index="9" name="" />
+        <alias field="Shape_Area" index="10" name="" />
+        <alias field="ORIG_FID" index="11" name="" />
+        <alias field="lat" index="12" name="" />
+        <alias field="lon" index="13" name="" />
+      </aliases>
+      <excludeAttributesWMS />
+      <excludeAttributesWFS />
+      <attributeactions default="-1" />
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-947932744">
+        <columns />
+      </attributetableconfig>
+      <editform />
+      <editforminit />
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath />
+      <editforminitcode />
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets />
+      <conditionalstyles>
+        <rowstyles />
+        <fieldstyles />
+      </conditionalstyles>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString" />
+      <AreaUnits type="QString" />
+    </Measurement>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WFSLayers type="QStringList">
+      <value>ej_village_centroid20161129131322941</value>
+    </WFSLayers>
+    <WFSLayersPrecision>
+      <ej_village_centroid20161129131322941 type="int">8</ej_village_centroid20161129131322941>
+    </WFSLayersPrecision>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets />
+<legend updateDrawingOrder="true"> 
+<legendlayer checked="Qt::Checked" drawingOrder="-1" name="ej_village_centroid" open="true" showFeatureCount="0"> 
+<filegroup hidden="false" open="true"> 
+<legendlayerfile isInOverview="0" layerid="ej_village_centroid20161129131322941" visible="1" /> 
+</filegroup>
+</legendlayer>
+</legend></qgis>

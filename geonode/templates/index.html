@@ -9,16 +9,78 @@
 
 {% block middle %}
    {{ block.super }}
-  {% block hero %}
-  <div class="jumbotron">
-    <div class="container">
-      <h1>{% trans "Welcome" %}</h1>
-      <p>{% blocktrans %}GeoNode is an open source platform for sharing geospatial data and maps.{% endblocktrans %}</p>
-      <p>{% blocktrans %}If you have any questions about the software or service, join our <a href="http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users">mailing list</a>.{% endblocktrans %}</p>
-      <span>{% trans 'Need help?' %} <a href="http://docs.geonode.org/en/latest/tutorials/users/quickstart/index.html">{% trans 'Getting Started' %}</a></span>
+{% block carousel %}
+<div id="CarouselHome" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#CarouselHome" data-slide-to="0" class="active"></li>
+        <li data-target="#CarouselHome" data-slide-to="1"></li>
+        <li data-target="#CarouselHome" data-slide-to="2"></li>
+        <li data-target="#CarouselHome" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="{{ STATIC_URL }}geonode/img/slideshow/bajou.jpg" alt="Welcome slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="text-left">{% trans "Welcome" %}</h1>
+                    <h4 class="text-left">{% blocktrans %}APIK (Adaptasi Perubahan Iklim dan Ketangguhan) Geoportal{% endblocktrans %}</h4>>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{ STATIC_URL }}geonode/img/slideshow/cengkeh.jpg" alt="Layers slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="text-left">{% trans "Tujuan program APIK" %}</h1>
+                    <p>&nbsp;</p>
+                    <h4 class="text-left">{% blocktrans %}1. Mengintegrasikan adaptasi perubahan iklim (API) dan pengurangan risiko bencana (PRB) ke dalam kerangka kerja lokal dan nasional.{% endblocktrans %}</h4>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{ STATIC_URL }}geonode/img/slideshow/jodipan.jpg" alt="Maps slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="text-left">{% trans "Tujuan program APIK" %}</h1>
+                    <p>&nbsp;</p>
+                    <h4 class="text-left">{% blocktrans %}2. Meningkatkan kapasitas masyarakat lokal dan sektor bisnis untuk mengatasi perubahan iklim dan bencana terkait iklim.{% endblocktrans %}</h4>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{ STATIC_URL }}geonode/img/slideshow/lima.jpg" alt="Maps slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="text-left">{% trans "Tujuan program APIK" %}</h1>
+                    <p>&nbsp;</p>
+                    <h4 class="text-left">{% blocktrans %}3. Mendorong penggunaan informasi oleh berbagai para pemangku kepentingan untuk mengelola risiko bencana dan iklim.{% endblocktrans %}</h4>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  {% endblock %}
+    <a class="left carousel-control" href="#CarouselHome" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#CarouselHome" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+{% endblock %}
 
   {% block mainbody %}
   <div class="container">
